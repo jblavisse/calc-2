@@ -1,6 +1,5 @@
 export default function Calculator() {
     this.name = "calculatrice";
-    this.element = null;
 
 
     this.createHTMLElement = function(tag,classes,parentElement,text) {
