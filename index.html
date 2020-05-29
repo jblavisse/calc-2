@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Calculatrice</title>
 </head>
 <body>
-
-    <script type="module" src="js/app.js"></script>
+    <div class="calcul">
+        <header class="calcul__head">0</header>
+        <ul>
+            <li>
+                <button class="calcul__operator" id="+">+</button>
+                <button class="calcul__operator" id="-">-</button>
+                <button class="calcul__operator" id="*">*</button>
+                <button class="calcul__operator" id="/">/</button>
+            </li>
+            <li>
+                <button class="calcul__element" id="7">7</button>
+                <button class="calcul__element" id="8">8</button>
+                <button class="calcul__element" id="9">9</button>
+            </li>
+            <li>
+                <button class="calcul__element" id="4">4</button>
+                <button class="calcul__element" id="5">5</button>
+                <button class="calcul__element" id="6">6</button>
+            </li>
+            <li>
+                <button class="calcul__element" id="1">1</button>
+                <button class="calcul__element" id="2">2</button>
+                <button class="calcul__element" id="3">3</button>
+            </li>
+            <li>
+                <button class="calcul__element" id="0">0</button>
+                <button class="calcul__element" id=".">.</button>
+                <button class="calcul__supp" id="supp">AC</button>
+            </li>
+        </ul>
+        <button class="calcul__total" id="=">=</button>
+    </div>
 </body>
 </html>
